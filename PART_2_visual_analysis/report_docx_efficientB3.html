@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html><head><meta charset='utf-8'><title>DL Comparison Report</title>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;margin:30px;background:#fafafa;}
+table{border-collapse:collapse;width:80%;margin-bottom:30px;}
+th,td{text-align:center;border:1px solid #ddd;padding:8px;}
+th{background:#f2f2f2;font-weight:bold;}
+h2{margin-top:40px;}
+.OK{background:#f9fff9;}
+.MINOR\ ISSUE{background:#fffbe6;}
+.MODERATE\ ISSUE{background:#fff0cc;}
+.SEVERE\ ISSUE{background:#ffe5e5;}
+.PAGE\ COUNT\ MISMATCH{background:#ffe0e0;}
+</style></head><body>
+
+    <div style="border:1px solid #ccc; border-radius:8px; padding:12px; background:#f8f8ff; margin-bottom:25px;">
+      <h1>Summary</h1>
+      <ul style="line-height:1.8em;">
+        <li><b>Total documents:</b> 15</li>
+        <li><b>Total pages checked:</b> 65</li>
+        <li><b>OK:</b> 8 ✅</li>
+        <li><b>Minor issues:</b> 23 🟡</li>
+        <li><b>Moderate issues:</b> 12 🟠</li>
+        <li><b>Severe issues:</b> 22 🔴</li>
+        <li><b>Page count mismatches:</b> 1</li>
+      </ul>
+    </div>
+    
+<div style='border:1px solid #ccc; border-radius:8px; padding:12px; background:#f8f8ff; margin-bottom:25px;'><h1>Performance Summary</h1><ul style='line-height:1.8em;'><li><b>Processed documents:</b> 15</li><li><b>Total time:</b> 393.98 sec</li><li><b>Average CPU usage:</b> 28.57 %</li><li><b>Average RAM usage:</b> 17890.12 MB</li></ul></div>
+<h2>Document: 2031040</h2>
+<table><tr><th>Page</th><th>Cosine</th><th>LPIPS</th><th>Issue</th></tr>
+<tr class='MINOR ISSUE'><td>1</td><td>0.9899</td><td>0.2027</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>2</td><td>0.9965</td><td>0.1955</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>3</td><td>0.9871</td><td>0.1453</td><td>Minor 🟡</td></tr>
+<tr class='MODERATE ISSUE'><td>4</td><td>0.9465</td><td>0.0451</td><td>Moderate 🟠</td></tr>
+</table>
+<h2>Document: 2031297</h2>
+<table><tr><th>Page</th><th>Cosine</th><th>LPIPS</th><th>Issue</th></tr>
+<tr class='SEVERE ISSUE'><td>1</td><td>0.5327</td><td>0.5358</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>2</td><td>0.7622</td><td>0.4964</td><td>Severe 🔴</td></tr>
+</table>
+<h2>Document: 2032755</h2>
+<table><tr><th>Page</th><th>Cosine</th><th>LPIPS</th><th>Issue</th></tr>
+<tr class='MODERATE ISSUE'><td>1</td><td>0.9673</td><td>0.0095</td><td>Moderate 🟠</td></tr>
+<tr class='SEVERE ISSUE'><td>2</td><td>0.8810</td><td>0.0190</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>3</td><td>0.8955</td><td>0.0216</td><td>Severe 🔴</td></tr>
+<tr class='MODERATE ISSUE'><td>4</td><td>0.9268</td><td>0.0257</td><td>Moderate 🟠</td></tr>
+<tr class='SEVERE ISSUE'><td>5</td><td>0.8841</td><td>0.0297</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>6</td><td>0.8546</td><td>0.8324</td><td>Severe 🔴</td></tr>
+<tr class='MODERATE ISSUE'><td>7</td><td>0.9606</td><td>0.0152</td><td>Moderate 🟠</td></tr>
+</table>
+<h2>Document: 2033433</h2>
+<table><tr><th>Page</th><th>Cosine</th><th>LPIPS</th><th>Issue</th></tr>
+<tr class='MINOR ISSUE'><td>1</td><td>0.9851</td><td>0.7773</td><td>Minor 🟡</td></tr>
+</table>
+<h2>Document: 2034522</h2>
+<table><tr><th>Page</th><th>Cosine</th><th>LPIPS</th><th>Issue</th></tr>
+<tr class='MINOR ISSUE'><td>1</td><td>0.9857</td><td>0.1994</td><td>Minor 🟡</td></tr>
+<tr class='MODERATE ISSUE'><td>2</td><td>0.9228</td><td>0.1333</td><td>Moderate 🟠</td></tr>
+</table>
+<h2>Document: 2035926</h2>
+<table><tr><th>Page</th><th>Cosine</th><th>LPIPS</th><th>Issue</th></tr>
+<tr class='PAGE COUNT MISMATCH'><td colspan='4' style='color:red;font-weight:bold'>Page count mismatch</td></tr>
+</table>
+<h2>Document: 2036404</h2>
+<table><tr><th>Page</th><th>Cosine</th><th>LPIPS</th><th>Issue</th></tr>
+<tr class='SEVERE ISSUE'><td>1</td><td>0.5367</td><td>0.9061</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>2</td><td>0.6373</td><td>0.7664</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>3</td><td>0.5404</td><td>0.8593</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>4</td><td>0.3811</td><td>0.6998</td><td>Severe 🔴</td></tr>
+</table>
+<h2>Document: 2036451</h2>
+<table><tr><th>Page</th><th>Cosine</th><th>LPIPS</th><th>Issue</th></tr>
+<tr class='SEVERE ISSUE'><td>1</td><td>0.8720</td><td>0.7554</td><td>Severe 🔴</td></tr>
+<tr class='OK'><td>2</td><td>0.9886</td><td>0.1264</td><td>OK ✅</td></tr>
+<tr class='MODERATE ISSUE'><td>3</td><td>0.9426</td><td>0.8214</td><td>Moderate 🟠</td></tr>
+<tr class='SEVERE ISSUE'><td>4</td><td>0.8396</td><td>0.7219</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>5</td><td>0.9118</td><td>0.7938</td><td>Severe 🔴</td></tr>
+</table>
+<h2>Document: 2039121</h2>
+<table><tr><th>Page</th><th>Cosine</th><th>LPIPS</th><th>Issue</th></tr>
+<tr class='MINOR ISSUE'><td>1</td><td>0.9930</td><td>0.1383</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>2</td><td>0.9958</td><td>0.1358</td><td>Minor 🟡</td></tr>
+<tr class='OK'><td>3</td><td>0.9859</td><td>0.0806</td><td>OK ✅</td></tr>
+<tr class='MODERATE ISSUE'><td>4</td><td>0.9585</td><td>0.1104</td><td>Moderate 🟠</td></tr>
+<tr class='MODERATE ISSUE'><td>5</td><td>0.9596</td><td>0.4347</td><td>Moderate 🟠</td></tr>
+<tr class='MODERATE ISSUE'><td>6</td><td>0.9663</td><td>0.5064</td><td>Moderate 🟠</td></tr>
+<tr class='MODERATE ISSUE'><td>7</td><td>0.9678</td><td>0.0876</td><td>Moderate 🟠</td></tr>
+<tr class='OK'><td>8</td><td>1.0000</td><td>0.1183</td><td>OK ✅</td></tr>
+</table>
+<h2>Document: 2039934</h2>
+<table><tr><th>Page</th><th>Cosine</th><th>LPIPS</th><th>Issue</th></tr>
+<tr class='OK'><td>1</td><td>0.9808</td><td>0.0676</td><td>OK ✅</td></tr>
+<tr class='OK'><td>2</td><td>0.9980</td><td>0.1287</td><td>OK ✅</td></tr>
+</table>
+<h2>Document: Conformance-Certification</h2>
+<table><tr><th>Page</th><th>Cosine</th><th>LPIPS</th><th>Issue</th></tr>
+<tr class='MINOR ISSUE'><td>1</td><td>0.9961</td><td>0.3412</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>2</td><td>0.9939</td><td>0.2027</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>3</td><td>0.9941</td><td>0.2559</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>4</td><td>0.9874</td><td>0.1490</td><td>Minor 🟡</td></tr>
+</table>
+<h2>Document: V50_ALL_REFERENCE</h2>
+<table><tr><th>Page</th><th>Cosine</th><th>LPIPS</th><th>Issue</th></tr>
+<tr class='OK'><td>1</td><td>0.9991</td><td>0.2343</td><td>OK ✅</td></tr>
+<tr class='MINOR ISSUE'><td>2</td><td>0.9989</td><td>0.1902</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>3</td><td>0.9987</td><td>0.1931</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>4</td><td>0.9987</td><td>0.1996</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>5</td><td>0.9977</td><td>0.2345</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>6</td><td>0.9985</td><td>0.1814</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>7</td><td>0.9973</td><td>0.1779</td><td>Minor 🟡</td></tr>
+</table>
+<h2>Document: V50_ALL_X4</h2>
+<table><tr><th>Page</th><th>Cosine</th><th>LPIPS</th><th>Issue</th></tr>
+<tr class='SEVERE ISSUE'><td>1</td><td>0.9168</td><td>0.2304</td><td>Severe 🔴</td></tr>
+<tr class='MODERATE ISSUE'><td>2</td><td>0.9659</td><td>0.2919</td><td>Moderate 🟠</td></tr>
+<tr class='SEVERE ISSUE'><td>3</td><td>0.9011</td><td>0.1443</td><td>Severe 🔴</td></tr>
+<tr class='MINOR ISSUE'><td>4</td><td>0.9782</td><td>0.2023</td><td>Minor 🟡</td></tr>
+<tr class='SEVERE ISSUE'><td>5</td><td>0.9131</td><td>0.1941</td><td>Severe 🔴</td></tr>
+<tr class='MINOR ISSUE'><td>6</td><td>0.9930</td><td>0.1482</td><td>Minor 🟡</td></tr>
+</table>
+<h2>Document: file0003</h2>
+<table><tr><th>Page</th><th>Cosine</th><th>LPIPS</th><th>Issue</th></tr>
+<tr class='SEVERE ISSUE'><td>1</td><td>0.8752</td><td>0.3694</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>2</td><td>0.7659</td><td>0.9488</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>3</td><td>0.8120</td><td>0.9770</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>4</td><td>0.7720</td><td>0.6877</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>5</td><td>0.6517</td><td>0.8127</td><td>Severe 🔴</td></tr>
+</table>
+<h2>Document: file0026</h2>
+<table><tr><th>Page</th><th>Cosine</th><th>LPIPS</th><th>Issue</th></tr>
+<tr class='MODERATE ISSUE'><td>1</td><td>0.9698</td><td>0.2598</td><td>Moderate 🟠</td></tr>
+<tr class='MINOR ISSUE'><td>2</td><td>0.9965</td><td>0.1310</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>3</td><td>0.9846</td><td>0.2164</td><td>Minor 🟡</td></tr>
+<tr class='OK'><td>4</td><td>0.9986</td><td>0.0486</td><td>OK ✅</td></tr>
+<tr class='SEVERE ISSUE'><td>5</td><td>0.7071</td><td>0.3999</td><td>Severe 🔴</td></tr>
+<tr class='MINOR ISSUE'><td>6</td><td>0.9962</td><td>0.1858</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>7</td><td>0.9924</td><td>0.1859</td><td>Minor 🟡</td></tr>
+<tr class='OK'><td>8</td><td>0.9985</td><td>0.0510</td><td>OK ✅</td></tr>
+</table>
+</body></html>
+<h2>Document: <b>2031040</b></h2>
+<table><tr><th style='width:15%'>Page</th><th style='width:25%'>Cosine</th><th style='width:25%'>LPIPS</th><th style='width:35%'>Issue</th></tr>
+<tr class='MINOR ISSUE'><td>1</td><td>0.9899</td><td>0.2027</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>2</td><td>0.9965</td><td>0.1955</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>3</td><td>0.9871</td><td>0.1453</td><td>Minor 🟡</td></tr>
+<tr class='MODERATE ISSUE'><td>4</td><td>0.9465</td><td>0.0451</td><td>Moderate 🟠</td></tr>
+</table>
+<h2>Document: <b>2031297</b></h2>
+<table><tr><th style='width:15%'>Page</th><th style='width:25%'>Cosine</th><th style='width:25%'>LPIPS</th><th style='width:35%'>Issue</th></tr>
+<tr class='SEVERE ISSUE'><td>1</td><td>0.5327</td><td>0.5358</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>2</td><td>0.7622</td><td>0.4964</td><td>Severe 🔴</td></tr>
+</table>
+<h2>Document: <b>2032755</b></h2>
+<table><tr><th style='width:15%'>Page</th><th style='width:25%'>Cosine</th><th style='width:25%'>LPIPS</th><th style='width:35%'>Issue</th></tr>
+<tr class='MODERATE ISSUE'><td>1</td><td>0.9673</td><td>0.0095</td><td>Moderate 🟠</td></tr>
+<tr class='SEVERE ISSUE'><td>2</td><td>0.8810</td><td>0.0190</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>3</td><td>0.8955</td><td>0.0216</td><td>Severe 🔴</td></tr>
+<tr class='MODERATE ISSUE'><td>4</td><td>0.9268</td><td>0.0257</td><td>Moderate 🟠</td></tr>
+<tr class='SEVERE ISSUE'><td>5</td><td>0.8841</td><td>0.0297</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>6</td><td>0.8546</td><td>0.8324</td><td>Severe 🔴</td></tr>
+<tr class='MODERATE ISSUE'><td>7</td><td>0.9606</td><td>0.0152</td><td>Moderate 🟠</td></tr>
+</table>
+<h2>Document: <b>2033433</b></h2>
+<table><tr><th style='width:15%'>Page</th><th style='width:25%'>Cosine</th><th style='width:25%'>LPIPS</th><th style='width:35%'>Issue</th></tr>
+<tr class='MINOR ISSUE'><td>1</td><td>0.9851</td><td>0.7773</td><td>Minor 🟡</td></tr>
+</table>
+<h2>Document: <b>2034522</b></h2>
+<table><tr><th style='width:15%'>Page</th><th style='width:25%'>Cosine</th><th style='width:25%'>LPIPS</th><th style='width:35%'>Issue</th></tr>
+<tr class='MINOR ISSUE'><td>1</td><td>0.9857</td><td>0.1994</td><td>Minor 🟡</td></tr>
+<tr class='MODERATE ISSUE'><td>2</td><td>0.9228</td><td>0.1333</td><td>Moderate 🟠</td></tr>
+</table>
+<h2>Document: <b>2035926</b></h2>
+<table><tr><th style='width:15%'>Page</th><th style='width:25%'>Cosine</th><th style='width:25%'>LPIPS</th><th style='width:35%'>Issue</th></tr>
+<tr class='PAGE COUNT MISMATCH'><td colspan='4' style='color:red;font-weight:bold'>Page count mismatch</td></tr>
+</table>
+<h2>Document: <b>2036404</b></h2>
+<table><tr><th style='width:15%'>Page</th><th style='width:25%'>Cosine</th><th style='width:25%'>LPIPS</th><th style='width:35%'>Issue</th></tr>
+<tr class='SEVERE ISSUE'><td>1</td><td>0.5367</td><td>0.9061</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>2</td><td>0.6373</td><td>0.7664</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>3</td><td>0.5404</td><td>0.8593</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>4</td><td>0.3811</td><td>0.6998</td><td>Severe 🔴</td></tr>
+</table>
+<h2>Document: <b>2036451</b></h2>
+<table><tr><th style='width:15%'>Page</th><th style='width:25%'>Cosine</th><th style='width:25%'>LPIPS</th><th style='width:35%'>Issue</th></tr>
+<tr class='SEVERE ISSUE'><td>1</td><td>0.8720</td><td>0.7554</td><td>Severe 🔴</td></tr>
+<tr class='OK'><td>2</td><td>0.9886</td><td>0.1264</td><td>OK ✅</td></tr>
+<tr class='MODERATE ISSUE'><td>3</td><td>0.9426</td><td>0.8214</td><td>Moderate 🟠</td></tr>
+<tr class='SEVERE ISSUE'><td>4</td><td>0.8396</td><td>0.7219</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>5</td><td>0.9118</td><td>0.7938</td><td>Severe 🔴</td></tr>
+</table>
+<h2>Document: <b>2039121</b></h2>
+<table><tr><th style='width:15%'>Page</th><th style='width:25%'>Cosine</th><th style='width:25%'>LPIPS</th><th style='width:35%'>Issue</th></tr>
+<tr class='MINOR ISSUE'><td>1</td><td>0.9930</td><td>0.1383</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>2</td><td>0.9958</td><td>0.1358</td><td>Minor 🟡</td></tr>
+<tr class='OK'><td>3</td><td>0.9859</td><td>0.0806</td><td>OK ✅</td></tr>
+<tr class='MODERATE ISSUE'><td>4</td><td>0.9585</td><td>0.1104</td><td>Moderate 🟠</td></tr>
+<tr class='MODERATE ISSUE'><td>5</td><td>0.9596</td><td>0.4347</td><td>Moderate 🟠</td></tr>
+<tr class='MODERATE ISSUE'><td>6</td><td>0.9663</td><td>0.5064</td><td>Moderate 🟠</td></tr>
+<tr class='MODERATE ISSUE'><td>7</td><td>0.9678</td><td>0.0876</td><td>Moderate 🟠</td></tr>
+<tr class='OK'><td>8</td><td>1.0000</td><td>0.1183</td><td>OK ✅</td></tr>
+</table>
+<h2>Document: <b>2039934</b></h2>
+<table><tr><th style='width:15%'>Page</th><th style='width:25%'>Cosine</th><th style='width:25%'>LPIPS</th><th style='width:35%'>Issue</th></tr>
+<tr class='OK'><td>1</td><td>0.9808</td><td>0.0676</td><td>OK ✅</td></tr>
+<tr class='OK'><td>2</td><td>0.9980</td><td>0.1287</td><td>OK ✅</td></tr>
+</table>
+<h2>Document: <b>Conformance-Certification</b></h2>
+<table><tr><th style='width:15%'>Page</th><th style='width:25%'>Cosine</th><th style='width:25%'>LPIPS</th><th style='width:35%'>Issue</th></tr>
+<tr class='MINOR ISSUE'><td>1</td><td>0.9961</td><td>0.3412</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>2</td><td>0.9939</td><td>0.2027</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>3</td><td>0.9941</td><td>0.2559</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>4</td><td>0.9874</td><td>0.1490</td><td>Minor 🟡</td></tr>
+</table>
+<h2>Document: <b>V50_ALL_REFERENCE</b></h2>
+<table><tr><th style='width:15%'>Page</th><th style='width:25%'>Cosine</th><th style='width:25%'>LPIPS</th><th style='width:35%'>Issue</th></tr>
+<tr class='OK'><td>1</td><td>0.9991</td><td>0.2343</td><td>OK ✅</td></tr>
+<tr class='MINOR ISSUE'><td>2</td><td>0.9989</td><td>0.1902</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>3</td><td>0.9987</td><td>0.1931</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>4</td><td>0.9987</td><td>0.1996</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>5</td><td>0.9977</td><td>0.2345</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>6</td><td>0.9985</td><td>0.1814</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>7</td><td>0.9973</td><td>0.1779</td><td>Minor 🟡</td></tr>
+</table>
+<h2>Document: <b>V50_ALL_X4</b></h2>
+<table><tr><th style='width:15%'>Page</th><th style='width:25%'>Cosine</th><th style='width:25%'>LPIPS</th><th style='width:35%'>Issue</th></tr>
+<tr class='SEVERE ISSUE'><td>1</td><td>0.9168</td><td>0.2304</td><td>Severe 🔴</td></tr>
+<tr class='MODERATE ISSUE'><td>2</td><td>0.9659</td><td>0.2919</td><td>Moderate 🟠</td></tr>
+<tr class='SEVERE ISSUE'><td>3</td><td>0.9011</td><td>0.1443</td><td>Severe 🔴</td></tr>
+<tr class='MINOR ISSUE'><td>4</td><td>0.9782</td><td>0.2023</td><td>Minor 🟡</td></tr>
+<tr class='SEVERE ISSUE'><td>5</td><td>0.9131</td><td>0.1941</td><td>Severe 🔴</td></tr>
+<tr class='MINOR ISSUE'><td>6</td><td>0.9930</td><td>0.1482</td><td>Minor 🟡</td></tr>
+</table>
+<h2>Document: <b>file0003</b></h2>
+<table><tr><th style='width:15%'>Page</th><th style='width:25%'>Cosine</th><th style='width:25%'>LPIPS</th><th style='width:35%'>Issue</th></tr>
+<tr class='SEVERE ISSUE'><td>1</td><td>0.8752</td><td>0.3694</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>2</td><td>0.7659</td><td>0.9488</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>3</td><td>0.8120</td><td>0.9770</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>4</td><td>0.7720</td><td>0.6877</td><td>Severe 🔴</td></tr>
+<tr class='SEVERE ISSUE'><td>5</td><td>0.6517</td><td>0.8127</td><td>Severe 🔴</td></tr>
+</table>
+<h2>Document: <b>file0026</b></h2>
+<table><tr><th style='width:15%'>Page</th><th style='width:25%'>Cosine</th><th style='width:25%'>LPIPS</th><th style='width:35%'>Issue</th></tr>
+<tr class='MODERATE ISSUE'><td>1</td><td>0.9698</td><td>0.2598</td><td>Moderate 🟠</td></tr>
+<tr class='MINOR ISSUE'><td>2</td><td>0.9965</td><td>0.1310</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>3</td><td>0.9846</td><td>0.2164</td><td>Minor 🟡</td></tr>
+<tr class='OK'><td>4</td><td>0.9986</td><td>0.0486</td><td>OK ✅</td></tr>
+<tr class='SEVERE ISSUE'><td>5</td><td>0.7071</td><td>0.3999</td><td>Severe 🔴</td></tr>
+<tr class='MINOR ISSUE'><td>6</td><td>0.9962</td><td>0.1858</td><td>Minor 🟡</td></tr>
+<tr class='MINOR ISSUE'><td>7</td><td>0.9924</td><td>0.1859</td><td>Minor 🟡</td></tr>
+<tr class='OK'><td>8</td><td>0.9985</td><td>0.0510</td><td>OK ✅</td></tr>
+</table>
+</body></html>
